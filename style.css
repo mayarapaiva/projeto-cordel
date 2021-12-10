@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Rock+Salt&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #91735F;
+    --cor1: #9f7e69;
+    --cor2: #d2bba0;
+    --cor3: #f2efc7;
+    --cor4: #F9F6E2;
+    --fonte1: 'Rock Salt', cursive;
+    --fonte2: 'Homemade Apple', cursive;
+}
+
+header{
+    background-color: var(--cor0);
+    min-height: 150px;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fonte1);
+    color: var(--cor4);
+    font-size: 4em;
+}
+
+header > p{
+    font-family: var(--fonte2);
+}
+
+header > p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+header > p >a:hover{
+    text-decoration: underline;
+}
+
+body{
+    text-align: center;
+}
+
+main{
+    background-color:var(--cor4);
+    color: var(--cor1);
+    font-family: var(--fonte2);
+    font-size: xx-large;
+}
+
+footer{
+    background-color: var(--cor1);
+    color: var(--cor4);
+    text-align: center;
+    margin: 3px;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 1em;
+    
+}
