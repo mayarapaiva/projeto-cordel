@@ -13,24 +13,31 @@
     --cor2: #d2bba0;
     --cor3: #f2efc7;
     --cor4: #F9F6E2;
+    --fonte0: Verdana, Geneva, Tahoma, sans-serif;
     --fonte1: 'Rock Salt', cursive;
     --fonte2: 'Homemade Apple', cursive;
 }
 
+html{
+    min-height: 100vh;
+    background-color: var(--cor4);
+}
+
 header{
     background-color: var(--cor0);
-    min-height: 150px;
     text-align: center;
 }
 
 header > h1{
     font-family: var(--fonte1);
     color: var(--cor4);
-    font-size: 4em;
+    font-size: 7vw;
+    padding-top: 50px;
 }
 
 header > p{
     font-family: var(--fonte2);
+    padding-bottom: 50px;
 }
 
 header > p > a{
@@ -38,7 +45,7 @@ header > p > a{
     font-weight: bold;
     color: black;
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 header > p >a:hover{
@@ -47,22 +54,33 @@ header > p >a:hover{
 
 body{
     text-align: center;
+    background-color:var(--cor4);
+    min-height: 100vh;
 }
 
-main{
-    background-color:var(--cor4);
+section{ 
     color: var(--cor1);
     font-family: var(--fonte2);
-    font-size: xx-large;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+section.normal{
+
+}
+
+section.imagem{
+    background-color: brown;
 }
 
 footer{
     background-color: var(--cor1);
     color: var(--cor4);
     text-align: center;
-    margin: 3px;
-    padding: 5px;
     font-weight: bolder;
     font-size: 1em;
-    
+    padding: 10px;
 }
